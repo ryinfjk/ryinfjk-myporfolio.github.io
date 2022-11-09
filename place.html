@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/pass.webp" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="place_swiper.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="place.css">
+
+        <title>Favorite Places</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Places</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link active-link">About Me</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="food.html" class="nav__link">Food</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="hobbies.html" class="nav__link">Hobbies</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="job.html" class="nav__link">Job</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Night mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="home.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">The journey of a thousand miles begins with a single step.
+                        </span>
+                        <h1 class="home__data-title">My <br>  <b> Favorite Places</b></h1>
+                        <a href="#" class="button">Lezzz Goo</a>
+
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">One of my favorite places:<br> <b>Norhtern Light in Norway</b></h2>
+                        <p class="about__description">One of the most renowned natural phenomena in the world are the gorgeous dancing Northern Lights. Rich, vibrant colours glitter and light up the night sky in a display of natural beauty.
+                        </p>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="lights1.jpeg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="lights.jpeg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Places I want to <br> visit soon</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="jap.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Japan</h2>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="mal.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Maldices</h2>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="dubai.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Dubai</h2>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="ice.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Iceland</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">I do Believe</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Going out into the world and investigating, turning the “unknown” into the “known.”
+
+
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="bridge.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+        
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">There Are So Many 
+                            <br> Benefits of Traveling?!</h2>
+                        <p class="subscribe__description">This benefits you by allowing you to expand your horizons and choose new paths while disconnecting from the pressures and pulls of regular life.
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="We have a passport to fill with stamps" class="subscribe__input">
+    
+                            <button class="button">
+                                Soon
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+
+    
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="place_scroll.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="place_swiper.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="place.js"></script>
+    </body>
+</html>

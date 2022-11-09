@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="shortcut icon" href="foodl.png">
+
+   <title>Favorite Foods</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="food.css">
+
+</head>
+<body>
+   
+<!-- header section starts     -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <img src="foodie.gif"> food. </a>
+
+   <nav class="navbar">
+      <a href="index.html">About Me</a>
+      <a href="place.html">Place</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="job.html">Job</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(home1.png) no-repeat;">
+            <div class="content">
+               <span>#delicious</span>
+               <h3>My Favorite Foods </h3>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(home2.png) no-repeat;">
+            <div class="content">
+               <span>#Sweets</span>
+               <h3>My Favorite Foods</h3>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(home3.png) no-repeat;">
+            <div class="content">
+               <span>#yummy</span>
+               <h3>My Favorite Foods</h3>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="image">
+      <img src="odette.png" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="title">My Favorite Restaurant</h3>
+      <p>It was one of those unusual lunches when every single course was excellent, with some being simply outstanding. According to his idea, the chefs in charge that day created dishes that genuinely highlighted the aromas and textures of the actual components. You will not be left hungry, thanks to the well-paced presentation and ideal serving sizes. Everyone was knowledgeable and extremely well-trained, and the service flow was very well organized. The service was professional yet approachable and kind, not at all overbearing, stuck-up, or pompous.</p>
+      </div>
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- food section starts  -->
+
+<section class="food" id="food">
+
+   <div class="heading">  
+      <span>My Favorite</span>
+      <h3>Foods</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" data-name="food-1">
+            <img src="mac.png" alt="">
+            <h3></h3>
+            <div class="price">Macaroons</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-2">
+            <img src="stea.png" alt="">
+            <h3></h3>
+            <div class="price">Steak</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <img src="beefw.png" alt="">
+            <h3></h3>
+            <div class="price">Beef Wellington</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-4">
+            <img src="don.png" alt="">
+            <h3></h3>
+            <div class="price">Donut</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-5">
+            <img src="bir.png" alt="">
+            <h3></h3>
+            <div class="price">Biryani</div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- food section ends -->
+
+<!-- food preview section starts  -->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="mac.png" alt="">
+      <h3>Macaroons</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>They have a crunchy exterior and a soft, light, nougat-like interior.</p>
+      <div class="price"></div>
+      <a class="btn">#Sweet</a>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="stea.png" alt="">
+      <h3>Steak</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>A tender, flavorful, medium-rare steak that isn't overly salty. Tender, juicy, cooked perfectly and perfectly seasoned.</p>
+      <div class="price"></div>
+      <a class="btn">#Chef's Kiss</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="beefw.png" alt="">
+      <h3>Beef Wellington</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>A decadent, tender and juicy beef tenderloin with a layer of mustard, mushroom duxelles, and prosciutto wrapped in a soft, buttery pastry that is cooked until golden brown.</p>
+      <div class="price"></div>
+      <a class="btn">#Tasty</a>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <img src="don.png" alt="">
+      <h3>Donut</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Soft, doughy and coated in a blissful sugary glaze</p>
+      <div class="price"></div>
+      <a class="btn">#Sweet</a>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+      <img src="bir.png" alt="">
+      <h3>Biryani</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Every grain of rice is separate, yet infused with aromas of various spices and has meat or vegetables paired with it.</p>
+      <div class="price"></div>
+      <a class="btn">#Delicious</a>
+   </div>
+
+   
+
+</section>
+
+<!-- food preview section ends -->
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="food.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
